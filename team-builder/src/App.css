@@ -31,3 +31,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*  More CSS */
+
+.form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+}
+
+form .submitButton {
+  border: 1px solid black;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 8%;
+}
+
+form .submitButton:hover {
+  background-color: blue;
+}
+
+.list {
+  border: 1 px solid black;
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
